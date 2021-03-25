@@ -1,7 +1,7 @@
 .flexybooks {
     display: flex;
     flex-wrap: wrap;
-    width: 1000px;
+    width: 750px;
     margin: auto;
     align-items: center;
     justify-content: space-between;
@@ -9,6 +9,9 @@
 
 .books {
     padding:5px;
-    flex-basis: 100px;
+    flex-basis: 250px;
     text-align: center;
+    margin-top: 25px;
+    border: 2px solid black;
+    border-radius: 15px;;
 }
