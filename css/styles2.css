@@ -1,9 +1,14 @@
 .flexybooks {
     display: flex;
-    
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .books {
     padding:5px;
-
+    flex-basis: 100px;
+    text-align: center;
 }
