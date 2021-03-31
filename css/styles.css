@@ -35,10 +35,37 @@ footer {
     clear: both;
     position: relative;
     
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 a {
     color: black;
+
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+  .flexybooks {
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+    margin: auto;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.books {
+    padding:5px;
+    flex-basis: 250px;
+    text-align: center;
+    margin-top: 25px;
+    border: 2px solid black;
+    border-radius: 15px;
+    
 
 }

@@ -38,8 +38,19 @@
 
 <footer>
     <div id ="footer">
+
+        <button onclick="myButton()">&#9728;</button>
+    
+        <script>
+        function myButton() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        } 
+        </script>
+        
         <a href="https://www.stgeorges.school.nz">Link to St Georges Website</a>
-        <div id="google_translate_element"></div><script>
+        <!-- Not my Code inside this Div -->
+        <div id="google_translate_element"></div><script> 
     
             function googleTranslateElementInit() {
             
