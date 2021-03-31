@@ -4,77 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles.css"> <!-- Master Style Sheet -->
-    <script src="../js/external.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/external.js"></script>
     <title> &#1421; St Georges</title>
-    
 </head>
+
 <body onload="onload()">
-<header>
-<div id ="menu">
-    <div class= "name">
+    <header>
+        <div id ="menu">
+            <div class= "name">
+                <h1>Kathy</h1>
+            </div>
+            <div class = "links">
+                <a href="/">Home</a> 
+                <a href="/books/">Books</a>
+                <a href="/colors/">Colors</a>
+                <a href="/flowers/">Flowers</a>
+                <a href="/websites/">Favourite Links</a>
 
-        <h1>Kathy</h1>
-    </div>
-    <div class = "links">
-        <a href="/">Home</a> 
-        <a href="/books/">Books</a>
-        <a href="/colors/">Colors</a>
-        <a href="/flowers/">Flowers</a>
-        <a href="/websites/">Favorite Links</a>
-
-    </div>
-  
-
-</div>
-</header>
+            </div>
+        </div>
+    </header>
 <hr>
 
-
+<div class= "main-body">
     
     <h2> Books </h2>
     <h3> Book recommendations </h3>
-    <div class ="flexybooks">
-    <!-- add suitable books recommendations (even an e-book or two) -->
-        <div class="books" id="book1"><img src="/images/touchyfeely.jpg" alt="" style="width: 250px; border-radius: 10px;"></div>
-        <div class="books" id="book2"><img src="/images/giraffes-cant-dance.jpg" alt="" style="width: 250px; border-radius: 10px;"  > </div>
-        <div class="books" id="book3"><img src="/images/gruffalo-book.jpg" alt="" style="width: 250px; border-radius: 10px;" ></div>
-        <div class="books" id="book4"><img src="/images/spot-goes-to-school.jpg" alt="" style="width: 250px; border-radius: 10px;"></div>
-        <div class="books" id="book5"><img src="/images/digger.jpeg" alt="" style="width: 250px; border-radius: 10px;"></div>
-        <div class="books" id="book6"><img src="/images/donkey.jpeg" alt="" style="width: 250px; border-radius: 10px;"></div>
-        <div class="books" id="book7"><img src="/images/where-the-wild-things-are-2.jpg" alt="" style="width: 250px; border-radius: 10px;"></div>
-        <div class="books" id="book8"><img src="/images/dear-zoo.jpg" alt="" style="width: 250px; border-radius: 10px;"></div>
-
-    </div>  
+        <div class ="flexybooks">
+        <!-- Book Suggestions -->
+            <div class="books" id="book1"><img src="/images/touchyfeely.jpg" alt="" style="width: 250px; border-radius: 10px;"></div>
+            <div class="books" id="book2"><img src="/images/giraffes-cant-dance.jpg" alt="" style="width: 250px; border-radius: 10px;"  > </div>
+            <div class="books" id="book3"><img src="/images/gruffalo-book.jpg" alt="" style="width: 250px; border-radius: 10px;" ></div>
+            <div class="books" id="book4"><img src="/images/spot-goes-to-school.jpg" alt="" style="width: 250px; border-radius: 10px;"></div>
+            <div class="books" id="book5"><img src="/images/digger.jpeg" alt="" style="width: 250px; border-radius: 10px;"></div>
+            <div class="books" id="book6"><img src="/images/donkey.jpeg" alt="" style="width: 250px; border-radius: 10px;"></div>
+            <div class="books" id="book7"><img src="/images/where-the-wild-things-are-2.jpg" alt="" style="width: 250px; border-radius: 10px;"></div>
+            <div class="books" id="book8"><img src="/images/dear-zoo.jpg" alt="" style="width: 250px; border-radius: 10px;"></div>
+        </div>  
+</div>
 
 
 
 
 <footer>
-    <div id ="footer">
-
-        <button onclick="myButton()">&#9728;</button>
-    
-    
+    <!-- Runs JS -->
+    <button onclick="myButton()">&#9728;</button> <!-- Dark Mode Button -->
         
-        <div id="google_translate_element"></div><script>
-    
-            function googleTranslateElementInit() {
-            
+    <!-- Not my Code inside this Div -->
+    <div id="google_translate_element"></div>
+    <script> 
+        function googleTranslateElementInit() {
             new google.translate.TranslateElement({
-            
             pageLanguage: 'en'
-            
             }, 'google_translate_element');
-            }
-            </script>
-            <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    </div>
-
+        }
+    </script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </footer>
-
-
-
 
 </body>
 </html>
