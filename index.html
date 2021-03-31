@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/external.js"></script>
     
     <title> &#1421; St Georges</title>
     
@@ -29,24 +30,19 @@
 </header>
 <hr>
 
-<body>
+<body onload="onload()" >
     
     <h1> Test </h1>
 
-</body>
+
 
 
 <footer>
     <div id ="footer">
 
+        <!-- Runs JS -->
         <button onclick="myButton()">&#9728;</button>
-    
-        <script>
-        function myButton() {
-            var element = document.body;
-            element.classList.toggle("dark-mode");
-        } 
-        </script>
+        
         
         <a href="https://www.stgeorges.school.nz">Link to St Georges Website</a>
         <!-- Not my Code inside this Div -->
@@ -68,6 +64,6 @@
 
 
 
-
+</body>
 
 </html>
