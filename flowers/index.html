@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
-    <script src="../js/external.js"></script>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-inline' 'self' https://google.com http://translate.google.com https://translate.google.com https://translate.googleapis.com/ ; img-src https://* http://127.0.0.1:5500/favicon.ico http://translate.google.com/; child-src 'none'; script-src 'self' 'unsafe-inline' http://translate.google.com/ https://translate.googleapis.com/ ; ">
+    <script src="../js/external.js"></script> 
     <title> &#1421; St Georges</title>
 </head>
 
@@ -34,13 +35,14 @@
     <!-- Not my Code inside this Div -->
     <div class="Code From Google">
         <div id="google_translate_element"></div>
-        <script> 
-            function googleTranslateElementInit() {
-                new google.translate.TranslateElement({
-                pageLanguage: 'en'
-                }, 'google_translate_element');
-            }
-        </script>
+        <!-- This is only working as an internal script, externally linked errors-->
+        <script>
+        function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+        pageLanguage: 'en'
+        }, 'google_translate_element');
+            } 
+    </script>
         <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     </div>
 </footer>
