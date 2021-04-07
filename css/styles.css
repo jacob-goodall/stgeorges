@@ -67,7 +67,28 @@ a {
     
 }
 
+.flexyflowers {
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+    margin: auto;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
 .books {
+    padding:5px;
+    flex-basis: 250px;
+    text-align: center;
+    margin-top: 25px;
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+
+.flowers {
     padding:5px;
     flex-basis: 250px;
     text-align: center;
