@@ -5,9 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="../css/styles.css">
-<!-- TODO Make Sure CSP is working before hand in  -->
-<meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-inline' 'self' https://google.com http://translate.google.com https://translate.google.com https://translate.googleapis.com/ ; img-src 'self' https://* http://127.0.0.1:5500/favicon.ico http://translate.google.com/; child-src 'none'; script-src 'self' 'unsafe-inline' http://translate.google.com/ https://translate.googleapis.com/ ; ">
-<script src="../js/external.js"></script> 
+<script src="../js/external.js"></script>
 <title> &#1421; St Georges</title>
 
 
@@ -29,17 +27,21 @@
     </header>
 <hr>
 
-<div id="flexyweb">
-    <!-- Book Suggestions -->
-        <div class="web"> <img src="/images/daffidlls.jpeg" alt="" style="width: 250px; border-radius: 10px;">  </div>
-        <div class="web"> <img src="/images/giraffes-cant-dance.jpg" alt="" style="width: 250px; border-radius: 10px;">  </div>
-        <div class="web"> <img src="/images/gruffalo-book.jpg" alt="" style="width: 250px; border-radius: 10px;" >  </div>
-        <div class="web"> <img src="/images/spot-goes-to-school.jpg" alt="" style="width: 250px; border-radius: 10px;">  </div>
-        <div class="web"> <img src="/images/digger.jpeg" alt="" style="width: 250px; border-radius: 10px;">  </div>
-        <div class="web"> <img src="/images/donkey.jpeg" alt="" style="width: 250px; border-radius: 10px;">  </div>
-        <div class="web"> <img src="/images/where-the-wild-things-are-2.jpg" alt="" style="width: 250px; border-radius: 10px;">  </div>
-        <div class="web"> <img src="/images/dear-zoo.jpg" alt="" style="width: 250px; border-radius: 10px;">  </div>
-    </div>  
+<div class= "main-body">
+    
+    <h2> Books </h2>
+    <h3> Book recommendations </h3>
+        <div id="flexyweb">
+        <!-- Book Suggestions -->
+            <div class="web"> <a target="_blank" href="https://www.stepsweb.com/"> <img src="/images/StepsWeb.png" alt="" style="width: 250px; border-radius: 10px;"> </a> </div>
+            <div class="web"> <a target="_blank" href="https://www.mathletics.com/nz/"> <img src="/images/mathletics.png" alt="" style="width: 250px; border-radius: 10px;"> </a> </div>
+            <div class="web"> <a target="_blank" href="https://kids.nationalgeographic.com/"> <img src="/images/NatGeoKids.png" alt="" style="width: 250px; border-radius: 10px;" > </a> </div>
+            <div class="web"> <a target="_blank" href="https://scratch.mit.edu/"> <img src="/images/scratch.jpg" alt="" style="width: 250px; border-radius: 10px;"> </a> </div>
+            <div class="web"> <a target="_blank" href="https://www.timeforkids.com/k1"> <img src="/images/time-for-kids.png" alt="" style="width: 250px; border-radius: 10px;"> </a> </div>
+            <div class="web"> <a target="_blank" href="https://thekidzpage.com/"> <img src="/images/thekidzpage.png" alt="" style="width: 250px; border-radius: 10px;"> </a> </div>
+        </div>  
+</div>
+
 
 
 
@@ -50,14 +52,13 @@
     <!-- Not my Code inside this Div -->
     <div class="Code From Google">
         <div id="google_translate_element"></div>
-        <!-- This is only working as an internal script, externally linked errors-->
-        <script>
-        function googleTranslateElementInit() {
-        new google.translate.TranslateElement({
-        pageLanguage: 'en'
-        }, 'google_translate_element');
-            } 
-    </script>
+        <script> 
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({
+                pageLanguage: 'en'
+                }, 'google_translate_element');
+            }
+        </script>
         <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     </div>
 </footer>
