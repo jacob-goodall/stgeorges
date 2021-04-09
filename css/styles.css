@@ -34,7 +34,7 @@ body {
 }
 
 .dark-mode {
-    background-color: black;
+    background-color: rgb(41, 41, 41);
     color: white;
     
   }
@@ -58,7 +58,7 @@ a {
 
 
 
-.flexybooks {
+#flexybooks {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -69,7 +69,7 @@ a {
     
 }
 
-.flexyflowers {
+#flexyflowers {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -78,6 +78,17 @@ a {
     margin: auto;
     width: 650px;
     
+}
+
+#flexyweb {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin: auto;
+    width: 650px;
+
 }
 
 .books {
@@ -99,3 +110,13 @@ a {
     text-align: center;
 
 }
+
+.web {
+    border-radius: 15px;
+    border: 2px solid black;
+    flex-basis: 250px;
+    margin-top: 25px;
+    padding:5px;
+    text-align: center;
+
+} 

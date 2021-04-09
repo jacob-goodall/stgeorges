@@ -5,7 +5,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="../css/styles.css">
-<script src="../js/external.js"></script>
+<!-- TODO Make Sure CSP is working before hand in  -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-inline' 'self' https://google.com http://translate.google.com https://translate.google.com https://translate.googleapis.com/ ; img-src 'self' https://* http://127.0.0.1:5500/favicon.ico http://translate.google.com/; child-src 'none'; script-src 'self' 'unsafe-inline' http://translate.google.com/ https://translate.googleapis.com/ ; ">
+<script src="../js/external.js"></script> 
 <title> &#1421; St Georges</title>
 
 
@@ -27,6 +29,20 @@
     </header>
 <hr>
 
+<div id="flexyweb">
+    <!-- Book Suggestions -->
+        <div class="web"> <img src="/images/daffidlls.jpeg" alt="" style="width: 250px; border-radius: 10px;">  </div>
+        <div class="web"> <img src="/images/giraffes-cant-dance.jpg" alt="" style="width: 250px; border-radius: 10px;">  </div>
+        <div class="web"> <img src="/images/gruffalo-book.jpg" alt="" style="width: 250px; border-radius: 10px;" >  </div>
+        <div class="web"> <img src="/images/spot-goes-to-school.jpg" alt="" style="width: 250px; border-radius: 10px;">  </div>
+        <div class="web"> <img src="/images/digger.jpeg" alt="" style="width: 250px; border-radius: 10px;">  </div>
+        <div class="web"> <img src="/images/donkey.jpeg" alt="" style="width: 250px; border-radius: 10px;">  </div>
+        <div class="web"> <img src="/images/where-the-wild-things-are-2.jpg" alt="" style="width: 250px; border-radius: 10px;">  </div>
+        <div class="web"> <img src="/images/dear-zoo.jpg" alt="" style="width: 250px; border-radius: 10px;">  </div>
+    </div>  
+
+
+
 <footer>
     <!-- Runs JS -->
     <button onclick="myButton()">&#9728;</button> <!-- Dark Mode Button -->
@@ -34,13 +50,14 @@
     <!-- Not my Code inside this Div -->
     <div class="Code From Google">
         <div id="google_translate_element"></div>
-        <script> 
-            function googleTranslateElementInit() {
-                new google.translate.TranslateElement({
-                pageLanguage: 'en'
-                }, 'google_translate_element');
-            }
-        </script>
+        <!-- This is only working as an internal script, externally linked errors-->
+        <script>
+        function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+        pageLanguage: 'en'
+        }, 'google_translate_element');
+            } 
+    </script>
         <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     </div>
 </footer>
