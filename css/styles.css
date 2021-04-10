@@ -56,6 +56,8 @@ a {
 }
 
 #flexybooks {
+<<<<<<< HEAD
+=======
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -67,6 +69,7 @@ a {
 }
 
 #flexyflowers {
+>>>>>>> ed4dd060a17845ab1c5210840a452d9cfd297892
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -75,6 +78,22 @@ a {
     margin: auto;
     width: 650px;
     
+}
+
+<<<<<<< HEAD
+#flexyflowers {
+=======
+#flexyweb {
+>>>>>>> ed4dd060a17845ab1c5210840a452d9cfd297892
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin: auto;
+    width: 650px;
+    
+
 }
 
 #flexyweb {
@@ -130,6 +149,7 @@ a {
     height: 250px;
     
 } 
+<<<<<<< HEAD
 
 .color {
     border-radius: 15px;
@@ -208,3 +228,5 @@ a {
     background: linear-gradient(to right, #00416A, #E4E5E6); 
 }
 
+=======
+>>>>>>> ed4dd060a17845ab1c5210840a452d9cfd297892
