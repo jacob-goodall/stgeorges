@@ -127,27 +127,27 @@ a {
 }
 
 .web {
+    background-color: #e1e1e1;
     border-radius: 15px;
     border: 2px solid black;
     flex-basis: 250px;
+    height: 250px;
     margin-top: 25px;
     padding:5px;
     text-align: center;
-    background-color: #e1e1e1;
-    height: 250px;
     
 } 
 
 .color {
+    background-color: #e1e1e1;
     border-radius: 15px;
     border: 2px solid black;
     flex-basis: 250px;
+    height: 100px;
     margin-top: 25px;
     padding:5px;
     text-align: center;
     width: 100px;
-    height: 100px;
-    background-color: #e1e1e1;
 
 }
 
